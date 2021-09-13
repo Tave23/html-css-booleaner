@@ -1,5 +1,12 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body{
-  width: 800px;
+  width: 1000px;
+  margin: auto;
 }
 
 .intestazione{
@@ -7,12 +14,21 @@ body{
   height: 70px;
   background-color: #4EA0FF;
   background-image: url(../img/pattern.png) ;
-  background-size: contain;
+  background-size: 35%
+  }
+
+  .intestazione img{
+    margin-left: 5px;
   }
 
  .intestazione img{
    width: 200px;
    padding-top: 20px;
+   
+ }
+
+ .titolo-articolo{
+   margin-top: 15px;
  }
 
  .info-articolo{
@@ -29,4 +45,17 @@ body{
 
 #data{
   font-size: 12px;
+}
+
+.container{
+  padding: 10px;
+}
+
+.container img{
+  width: 50%;
+  height: 350px;
+}
+
+.photo-description{
+  font-size: 10px;
 }
