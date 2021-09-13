@@ -59,3 +59,35 @@ body{
 .photo-description{
   font-size: 10px;
 }
+
+.testo-evidenziato{
+  background-color: yellow;
+}
+
+.paragrafo1{
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.elenco1{
+  margin-bottom: 25px;
+}
+
+.table{
+  text-align: left;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.intestazionetabella{
+  background-color: #20A9E5;
+  color: white;
+}
+
+.colonna3{
+  max-width: 300px;
+}
+
+.riga-azzurra{
+  background-color: #B1E5F1;
+}
