@@ -2,11 +2,8 @@
   width: 100%;
   height: 70px;
   background-color: #4EA0FF;
-  position: absolute;
+  background-image: url(../img/pattern.png) ;
+  background-size: contain;
   }
 
-  .intestazione .img{
-    width: 100%;
-    height: 100%;
-    
-  }
+ 
