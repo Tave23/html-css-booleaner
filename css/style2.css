@@ -6,7 +6,7 @@
 
 section{
   width: 800px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .intestazione{
@@ -20,9 +20,6 @@ section{
   .intestazione img{
     margin-left: 300px;
     position: relative;
-  }
-
- .intestazione img{
    width: 200px;
    padding-top: 20px;
    
@@ -99,4 +96,20 @@ section{
 .footer{
   color: #707070;
   margin-bottom: 10px;
+}
+
+.photo{
+  width: 200px;
+  height: 160px;
+  margin-bottom: 10px;
+  color: white;
+  padding: 10px;
+}
+
+#photo1{
+  background-image: url(../img/monitor.jpg);
+}
+
+#photo2{
+  background-image: url(../img/graph.jpg);
 }
